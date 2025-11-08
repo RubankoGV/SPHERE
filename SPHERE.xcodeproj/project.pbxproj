@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		SPHERE_MAIN /* SPHEREApp.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_MAIN_REF; };
+		SPHERE_MODELS /* Sphere.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_MODELS_REF; };
+		SPHERE_CHALLENGE /* Challenge.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_CHALLENGE_REF; };
+		SPHERE_USER /* User.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_USER_REF; };
+		SPHERE_VIEWMODEL /* AppViewModel.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_VIEWMODEL_REF; };
+		SPHERE_VIEWS /* OnboardingView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_ONBOARDING_REF; };
+		SPHERE_HOME /* HomeView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_HOME_REF; };
+		SPHERE_DETAIL /* SphereDetailView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_DETAIL_REF; };
+		SPHERE_CHALLENGES /* ChallengesView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_CHALLENGES_REF; };
+		SPHERE_PROGRESS /* ProgressView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_PROGRESS_REF; };
+		SPHERE_PROFILE /* ProfileView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_PROFILE_REF; };
+		SPHERE_SOCIAL /* SocialView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_SOCIAL_REF; };
+		SPHERE_SUBSCRIPTION /* SubscriptionView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_SUBSCRIPTION_REF; };
+		SPHERE_POLYGON /* PolygonProgressView.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_POLYGON_REF; };
+		SPHERE_SPHERE_CARD /* SphereCard.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_SPHERE_CARD_REF; };
+		SPHERE_CHALLENGE_CARD /* ChallengeCard.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_CHALLENGE_CARD_REF; };
+		SPHERE_HEALTH /* HealthKitService.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_HEALTH_REF; };
+		SPHERE_CALENDAR /* CalendarService.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_CALENDAR_REF; };
+		SPHERE_REMINDERS /* RemindersService.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_REMINDERS_REF; };
+		SPHERE_SUBSCRIPTION_SVC /* SubscriptionService.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_SUBSCRIPTION_SVC_REF; };
+		SPHERE_NOTIFICATIONS /* NotificationService.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_NOTIFICATIONS_REF; };
+		SPHERE_SERVICE_MGR /* ServiceManager.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_SERVICE_MGR_REF; };
+		SPHERE_EXTENSIONS /* Extensions.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_EXTENSIONS_REF; };
+		SPHERE_CONFIG /* AppConfig.swift */ = {isa = PBXBuildFile; fileRef = SPHERE_CONFIG_REF; };
+		SPHERE_INFO_PLIST /* Info.plist */ = {isa = PBXBuildFile; fileRef = SPHERE_INFO_PLIST_REF; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		SPHERE_APP /* SPHERE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPHERE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		SPHERE_MAIN_REF /* SPHEREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPHEREApp.swift; sourceTree = "<group>"; };
+		SPHERE_MODELS_REF /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		SPHERE_CHALLENGE_REF /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		SPHERE_USER_REF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		SPHERE_VIEWMODEL_REF /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		SPHERE_ONBOARDING_REF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		SPHERE_HOME_REF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		SPHERE_DETAIL_REF /* SphereDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereDetailView.swift; sourceTree = "<group>"; };
+		SPHERE_CHALLENGES_REF /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		SPHERE_PROGRESS_REF /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		SPHERE_PROFILE_REF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		SPHERE_SOCIAL_REF /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		SPHERE_SUBSCRIPTION_REF /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		SPHERE_POLYGON_REF /* PolygonProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonProgressView.swift; sourceTree = "<group>"; };
+		SPHERE_SPHERE_CARD_REF /* SphereCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereCard.swift; sourceTree = "<group>"; };
+		SPHERE_CHALLENGE_CARD_REF /* ChallengeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCard.swift; sourceTree = "<group>"; };
+		SPHERE_HEALTH_REF /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		SPHERE_CALENDAR_REF /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		SPHERE_REMINDERS_REF /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
+		SPHERE_SUBSCRIPTION_SVC_REF /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
+		SPHERE_NOTIFICATIONS_REF /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		SPHERE_SERVICE_MGR_REF /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		SPHERE_EXTENSIONS_REF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		SPHERE_CONFIG_REF /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		SPHERE_INFO_PLIST_REF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		SPHERE_GROUP = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_MAIN_REF,
+				SPHERE_INFO_PLIST_REF,
+				Models,
+				ViewModels,
+				Views,
+				Services,
+				Config,
+				Utilities,
+			);
+			sourceTree = "<group>";
+		};
+		Models = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_MODELS_REF,
+				SPHERE_CHALLENGE_REF,
+				SPHERE_USER_REF,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ViewModels = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_VIEWMODEL_REF,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		Views = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_ONBOARDING_REF,
+				SPHERE_HOME_REF,
+				SPHERE_DETAIL_REF,
+				SPHERE_CHALLENGES_REF,
+				SPHERE_PROGRESS_REF,
+				SPHERE_PROFILE_REF,
+				SPHERE_SOCIAL_REF,
+				SPHERE_SUBSCRIPTION_REF,
+				Components,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		Components = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_POLYGON_REF,
+				SPHERE_SPHERE_CARD_REF,
+				SPHERE_CHALLENGE_CARD_REF,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		Services = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_HEALTH_REF,
+				SPHERE_CALENDAR_REF,
+				SPHERE_REMINDERS_REF,
+				SPHERE_SUBSCRIPTION_SVC_REF,
+				SPHERE_NOTIFICATIONS_REF,
+				SPHERE_SERVICE_MGR_REF,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		Config = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_CONFIG_REF,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		Utilities = {
+			isa = PBXGroup;
+			children = (
+				SPHERE_EXTENSIONS_REF,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+	};
+	rootObject = SPHERE_PROJECT;
+}
+

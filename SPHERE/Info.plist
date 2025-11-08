@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>SPHERE использует данные о здоровье для отслеживания вашей активности и прогресса в сферах здоровья и спорта.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>SPHERE записывает данные о вашей активности для отслеживания прогресса.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>SPHERE использует календарь для планирования челленджей и событий.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>SPHERE использует напоминания для уведомлений о челленджах.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>SPHERE отправляет уведомления о новых челленджах и напоминания о выполнении задач.</string>
+</dict>
+</plist>
+
